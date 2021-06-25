@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+}
+
+body {
+    background-color: #d0ffb7;
+}
+
+body,
+html {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#heading {
+    background-color: #264653;
+    color: #f4a261;
+}
+
+h1,
+h2 {
+    margin-top: 8px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+h2 {
+    color: #eccaff;
+    font-family: "Underdog", cursive;
+    margin-right: 50px;
+}
+
+#x-position-value,
+#y-position-value {
+    font-family: "Poor Story", cursive;
+    margin-left: 10px;
+}
+
+.x-y {
+    font-family: "Allerta Stencil", sans-serif;
+}
+
+#other-space {
+    flex: 1;
+}
+
+h1 {
+    margin-right: 60px;
+    font-family: "Oldenburg", cursive;
+}
